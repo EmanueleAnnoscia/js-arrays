@@ -12,7 +12,7 @@ const teachers = [
 // e salva il risultato nella variabile reversedTeachers
 const reversedTeachers = [];
 
-for (i = teachers.length; i >=0; i--){
+for (i = teachers.length -1; i >=0; i--){
   reversedTeachers.push(teachers[i]);
 }
 console.log(reversedTeachers);

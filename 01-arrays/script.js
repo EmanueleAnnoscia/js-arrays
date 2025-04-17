@@ -63,6 +63,20 @@ console.log(isFabioPresent);
 // separata da virgole e salvala nella variabile teachersString
  const teachersString = teachers.join(",");
 
+//  let teachersString = null;
+// console.log(teachers);
+// for (let i = 0; i < teachers.length; i++) {
+
+
+//   if (i == 0) {
+//     teachersString = teachers[i] + ","
+//   } else if (i == (teachers.length - 1)) {
+//     teachersString = teachersString + teachers[i] + "."
+//   } else {
+//     teachersString = teachersString + teachers[i] + ","
+//   }
+// }
+
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
 const isTeachersEmpty = teachers.length === 0;
