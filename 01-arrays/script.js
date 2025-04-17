@@ -46,7 +46,7 @@ console.log(teachers);
 // e salva il risultato nella variabile isFabioPresent
  let isFabioPresent = false;
 
- for (let i = 0; i < teachers.length; i++) {
+ for (let i = 0; i < teachers.length && isFabioPresent === false ; i++) {
    if (teachers[i] === "Fabio") {
      isFabioPresent = true;
    }
